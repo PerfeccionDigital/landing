@@ -7,13 +7,11 @@
             </div>
             <div class="input">
                 <input name="name" class="inputtext" type="text" placeholder="Ingresa tu nombre" required>
-            </div> 
-            <div class="input">
-                <input name="email" type="email" placeholder="Ingresa tu correo" required> 
             </div>
             <div class="input">
-                <input name="phone" type="number" placeholder="Ingresa tu teléfono" required>
+                <input name="email" type="email" placeholder="Ingresa tu correo" required>
             </div>
+
             <div class="select">
                 <select name="area" class="--area" required >
                     <option value="">¿Qué área deseas remodelar o mejorar?</option>
