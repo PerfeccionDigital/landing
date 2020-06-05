@@ -747,7 +747,7 @@ b {
   font-family: 'Ubuntu', sans-serif;
   padding: 16px 8px;
   border-radius: 0.25rem;
-  background-color: #f9743b;
+  background-color: #008000;
   color: #fff;
 }
 ._btn-content-rectagle-orange:focus,
@@ -1050,7 +1050,7 @@ footer .sf-top-footer {
   text-align: center;
 }
 footer .sf-top-footer span {
-  color: #f9743b;
+  color: #008000;
 }
 @media screen and (max-width: 480px) {
   footer .sf-top-footer {
@@ -1264,14 +1264,14 @@ div.img_cards img {
   }
 }
 ul.list-categories li a.active {
-  color: #f9743b;
-  -webkit-box-shadow: 0px -6px 0px 0px #f9743b;
-  -moz-box-shadow: 0px -6px 0px 0px #f9743b;
-  box-shadow: 0px -6px 0px 0px #f9743b;
+  color: #008000;
+  -webkit-box-shadow: 0px -6px 0px 0px #008000;
+  -moz-box-shadow: 0px -6px 0px 0px #008000;
+  box-shadow: 0px -6px 0px 0px #008000;
   outline: 0;
 }
 ul.list-categories li a.active div {
-  color: #f9743b;
+  color: #008000;
 }
 ul.list-categories {
   list-style: none;
@@ -1320,15 +1320,15 @@ ul.list-categories li a {
 }
 ul.list-categories li a:hover,
 ul.list-categories li a:focus {
-  color: #f9743b;
-  -webkit-box-shadow: 0px -6px 0px 0px #f9743b;
-  -moz-box-shadow: 0px -6px 0px 0px #f9743b;
-  box-shadow: 0px -6px 0px 0px #f9743b;
+  color: #008000;
+  -webkit-box-shadow: 0px -6px 0px 0px #008000;
+  -moz-box-shadow: 0px -6px 0px 0px #008000;
+  box-shadow: 0px -6px 0px 0px #008000;
   outline: 0;
 }
 ul.list-categories li a:hover div,
 ul.list-categories li a:focus div {
-  color: #f9743b;
+  color: #008000;
 }
 ul.list-categories li i {
   align-self: center;
@@ -1509,7 +1509,7 @@ div.sf-container-flex-proyectos div.sf-container-pictures-proyectos div.sf-conta
   outline: 0;
 }
 .owl-dots button.active span {
-  background: #f9743b !important;
+  background: #008000 !important;
   outline: 0;
 }
 header {
@@ -1616,7 +1616,7 @@ h1 {
   font-size: 36px;
 }
 h1 span {
-  color: #f9743b;
+  color: #008000;
 }
 @media screen and (max-width: 480px) {
   h1 {
@@ -1629,7 +1629,7 @@ h2 {
   font-size: 32px;
 }
 h2 span {
-  color: #f9743b;
+  color: #008000;
 }
 @media screen and (max-width: 480px) {
   h2 {
@@ -1642,7 +1642,7 @@ h3 {
   font-size: 18px;
 }
 h3 span {
-  color: #f9743b;
+  color: #008000;
 }
 h4 {
   color: #000466;
@@ -1650,7 +1650,7 @@ h4 {
   font-size: 14px;
 }
 h4 span {
-  color: #f9743b;
+  color: #008000;
 }
 .block-01 {
   padding: 0;
@@ -1810,7 +1810,7 @@ section.sf-container .block-image {
   }
 }
 .separatingline {
-  background: #f9743b;
+  background: #008000;
   border-style: none;
   height: 5px;
   width: 50px;
@@ -1983,7 +1983,7 @@ section.clientes ul.sf-content-item li {
 }
 .sf-container-thanks div.sf-content-thanks .thanks-whatsapp a span {
   font-size: 19px;
-  color: #f9743b;
+  color: #008000;
   font-family: "LatoBold";
   font-family: "UbuntuBold";
 }
