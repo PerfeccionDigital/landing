@@ -1,0 +1,254 @@
+.bg-gray-200
+  bachgorund-color: $color-gray-100
+
+// Font & Text
+.-text-uppercase
+  text-transform: uppercase !important
+.-text-capitalize
+  text-transform: capitalize !important
+.-font-regular
+  font-family: $font-family-regular !important
+.-font-medium
+  font-family: $font-family-semibold !important
+.-font-bold
+  font-family: $font-family-bold !important
+.-font-black
+  font-family: $font-family-black !important
+
+/* ---------- TODO: DEPRECATE ---------- */
+.uppercase
+  text-transform: uppercase
+.lowercase
+  text-transform: lowercase
+.wancho
+  max-width: 1200px
+  box-sizing: content-box
+  padding: 0 0.625rem
+  margin: auto
+  +media-m()
+    padding: 0 8px
+
+.content-text
+  ul
+    padding-left: 40px
+  ul li
+    list-style: disc
+  ol li
+    list-style: decimal
+
+// class
+.frow
+  display: flex
+.none
+  display none !important
+.jcc
+  justify-content: center
+.tac
+  text-align: center
+.overlay
+  opacity: 0
+  transition: visibility 0s .2s, opacity .25s linear 0s
+  position: fixed
+  width: 100%
+  background-color: rgba(255,255,255,0.85)
+  left: 0
+  top: 0
+  z-index: $z-overlay+1
+  height: 100vh
+  visibility: hidden
+.overlay.-active
+  opacity 1
+  cursor pointer
+  visibility: visible
+  transition: opacity .25s linear 0s
+
+.style-guide
+  .underline
+    text-decoration: underline
+  .relative
+    position: relative
+  .text
+    &.-base
+      font-size: $font-size-m
+    &.-small
+      font-size: $font-size-s
+  .title
+    font-family: $font-family-bold
+    &.-t1
+      font-size 36px
+    &.-t2
+      font-size 32px
+    &.-t3
+      font-size 24px
+    &.-t4
+      font-size 22px
+    &.-t5
+      font-size 18px
+    &.-small
+      font-size: 24px
+    &.-big
+      font-size: 28px
+      font-weight: 400
+  .hidden
+    visibility: hidden
+  .none
+    display: none !important
+  .db
+    display: block
+  .dib
+    display: inline-block
+  .row
+    display: flex
+    flex-direction: row
+  .column
+    display: flex
+    flex-direction: column
+  .jcfs
+    justify-content: flex-start
+  .jcfe
+    justify-content: flex-end
+  .jcc
+    justify-content: center
+  .jcsb
+    justify-content: space-between
+  .jcsa
+    justify-content: space-around
+  .aifs
+    align-items: flex-start
+  .aife
+    align-items: flex-end
+  .aic
+    align-items: center
+  .ais
+    align-items: stretch
+  .aib
+    align-items: baseline
+  .fauto
+    flex: auto
+  .w100p
+    width: 100%
+
+  .op8
+    opacity: 0.8
+
+  .ml5
+    margin-left: 5px
+  .ml10
+    margin-left: 10px
+  .ml20
+    margin-left: 20px
+  .ml30
+    margin-left: 30px
+  .ml40
+    margin-left: 40px
+  .mb10
+    margin-bottom: 10px
+  .mb20
+    margin-bottom: 20px
+  .mb30
+    margin-bottom: 30px
+  .mb32
+    margin-bottom: 32px
+  .mb40
+    margin-bottom: 40px
+  .mb48
+    margin-bottom: 48px
+  .mr5
+    margin-right: 5px
+  .mr10
+    margin-right: 10px
+  .mr20
+    margin-right: 20px
+  .mr30
+    margin-right: 30px
+  .mr40
+    margin-right: 40px
+  .mt10
+    margin-top: 10px
+  .mt20
+    margin-top: 20px
+  .mt30
+    margin-top: 30px
+  .mt40
+    margin-top: 40px
+  .mauto
+    margin: auto
+  .mla
+    margin-left: auto
+  .mra
+    margin-right: auto
+  .mta
+    margin-top: auto
+  .mba
+    margin-bottom: auto
+  .ml0
+    margin-left: 0
+  .mr0
+    margin-right: 0
+  .mt0
+    margin-top: 0
+  .mb0
+    margin-bottom: 0
+  .m0
+    margin: 0
+
+  .pl10
+    padding-left: 10px
+  .pl20
+    padding-left: 20px
+  .pl30
+    padding-left: 30px
+  .pl40
+    padding-left: 40px
+  .pb10
+    padding-bottom: 10px
+  .pb20
+    padding-bottom: 20px
+  .pb30
+    padding-bottom: 30px
+  .pb40
+    padding-bottom: 40px
+  .pr10
+    padding-right: 10px
+  .pr20
+    padding-right: 20px
+  .pr30
+    padding-right: 30px
+  .pr40
+    padding-right: 40px
+  .pt10
+    padding-top: 10px
+  .pt20
+    padding-top: 20px
+  .pt30
+    padding-top: 30px
+  .pt40
+    padding-top: 40px
+
+  .tac
+    text-align: center
+
+  .col1
+    width: 82px
+  .col2
+    width: 184px
+  .col3
+    width: 286px
+  .col4
+    width: 388px
+  .col5
+    width: 490px
+  .col6
+    width: 592px
+  .col7
+    width: 694px
+  .col8
+    width: 796px
+  .col9
+    width: 898px
+  .col10
+    width: 1000px
+  .col11
+    width: 1102px
+  .col12
+    width: 1204px

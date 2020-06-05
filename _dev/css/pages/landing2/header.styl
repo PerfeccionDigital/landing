@@ -1,0 +1,59 @@
+header
+    padding-top: 10px
+    padding-bottom: 10px
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.08)
+    position: relative
+    z-index: 1000
+    +media-m() 
+        padding-top: 8px
+        padding-bottom: 8px
+    .content
+        display: flex
+        justify-content: space-between
+    .logo
+        position: relative
+        margin-left: 0
+        transition: all 0.35s ease
+        display: flex
+        flex-direction: row
+        justify-content: left
+        align-items: center
+        img
+            height: 58px
+        +media-m() 
+            img 
+                height: 50px
+        .cl-blue
+            color: $color-secundary
+            font-weight: bold
+            font-size: 20px
+            font-family: sans-serif
+            padding-left: 16px
+            +media-s()
+                font-size: 16px
+                padding-left: 8px
+    .cl-whatsapp
+        color: $color-secundary
+        position: relative
+        margin-left: 0
+        transition: all 0.35s ease
+        display: flex
+        justify-content: left
+        align-items: center
+        a
+            text-decoration: none
+            display: flex;
+            flex-direction: row
+        a.sf-btn.-whatsapp.-web i
+            font-size: 28px
+            color: $color-primary
+            margin: 0 5px
+            align-self: center
+            +media-s()
+                font-size: 38px
+        a.sf-btn.-whatsapp.-web span 
+            display: block
+            font-size: 25px
+            color: $color-blue
+            +media-m()
+                display: none

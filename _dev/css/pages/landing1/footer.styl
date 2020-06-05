@@ -1,0 +1,65 @@
+footer
+    section.sf-top-footer
+        background: $color-secundary-light
+        font-family : $font-family-ubuntu
+        text-align : center
+        font-size: 24px
+        color: $color-white
+        padding: 27px 0
+        +media-m()
+            font-size: 22px
+        +media-s()
+            font-size: 22px
+    section.sf-bottom-footer
+        border-top: 1px solid #fff
+        background-image: url(../img/bg_footer.png)
+        background-repeat: no-repeat
+        background-position: center
+        width: 100%;
+        height 500px;
+        background-size: 100% 100%
+        +media-xl()
+            background-size: 100% 100%
+        +media-l()
+            background-size: 100% 100%
+        +media-m()
+            background-size: auto 100%
+            height 395px
+        +media-s()
+            background-size: auto 100%
+            height 395px
+        div.sf-title-footer
+            font-family: $font-family-ubuntu
+            font-size: 32px;
+            color: $color-white
+            margin-top: 50px
+            +media-s()
+                font-size: 22px
+            p
+                text-align: center    
+        div.sf-title-contact-footer
+            font-family: $font-family-ubuntu
+            font-size: 20px;
+            color: $color-white
+            display: flex;
+            align-items: center
+            justify-content: center
+            p
+                text-align: center 
+        div.sf-data-contact-footer
+            font-family: $font-family-ubuntu
+            font-size: 18px
+            color: $color-white
+            span  
+                width: 100%;
+                display: block
+                text-align: center
+                & a
+                & a:hover
+                & a:focus
+                & a:active
+                    color: $color-white
+                    text-decoration: underline
+        div.sf-button-contact-footer
+            text-align: center
+            margin: 40px 0 0 0

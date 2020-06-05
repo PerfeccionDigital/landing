@@ -1,0 +1,48 @@
+.sf-container-thanks
+    background-image: url(../img/bg_header.png)
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    height: 530px
+
+    display: flex
+    flex-direction: column
+    align-self: center
+    +media-m()
+        height : auto
+        padding: 40px 0
+    +media-s()
+        height: auto
+        padding: 20px 0
+    div.sf-content-thanks
+        text-align: center
+        padding: 40px 50px
+        background-image: url(../img/bg_thanks.png)
+        +media-s()
+            padding: 40px 0
+        & .thanks-whatsapp 
+            margin: 4px 0 0 0
+            & a i
+                font-size: 24px
+                color: $color-primary-light
+                margin: 0 5px
+                +media-s()
+                    font-size: 20px
+            & a span    
+                font-size: 19px
+                color: $color-primary-orange
+                font-family: $font-family-lato-bold
+                font-family: $font-family-ubuntu-bold
+        & .sf_btn
+            width: 500px
+            margin: 0 auto
+            +media-m()
+                width: 80%
+            +media-s()
+                width: 80%
+        & .thanks-btn
+            width: 30%
+            margin: 20px auto 0 auto 
+            +media-m()
+                width: 100%
+            +media-s()
+                width: 80%

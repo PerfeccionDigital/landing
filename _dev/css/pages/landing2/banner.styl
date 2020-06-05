@@ -1,0 +1,75 @@
+section.sf-container
+    display: flex
+    flex-direction: column
+    & .sf-banner-block01
+        padding-top: 30px
+        background: url(../img/bg-familia-web.png) -50px
+        height: 660px
+        background-repeat: no-repeat
+        display : flex
+        & .b01
+            width: 70%
+            +media-xl()
+                width: 60%
+            +media-m()
+                width: 100%
+            +media-s()
+                width: 100%
+        & .b02
+            width: 30%
+            align-self: center
+            box-shadow: 0px 0px 60px 20px rgba(0,0,0,0.08)
+            +media-xl()
+                width: auto
+            p
+                color : $color-primary-blue
+                margin: 5px 0
+                padding: 0 15%
+        +media-xl()
+            background: url(../img/bg-familia-web.png) -200px
+            background-size: contain
+            background-repeat: no-repeat
+        +media-l()
+            background: url(../img/bg-familia-web.png) -230px
+            height: 600px
+            background-size: contain
+            background-repeat: no-repeat
+        +media-m()
+            background-image: none
+            height: auto
+        & .block01-title h1
+            text-align: left
+            +media-m()
+                text-align: center
+            +media-s()
+                text-align: center
+        & .separatingline 
+            margin-inline-start: initial
+            +media-m()
+                margin-inline-start: auto
+            +media-s()
+                margin-inline-start: auto
+        & .block01-subtitle
+            text-align: left
+            width: 170px
+            +media-m()
+                text-align: center
+                width: auto
+                padding: 0 10%
+            +media-s()
+                text-align: center
+                width: auto
+                padding: 0 10%
+    & .sf-banner-block02 img
+        +media-m()
+            width: 100%
+        +media-s()
+            width: 100%
+
+section.banner
+    & .sf-quehacemos
+        background : $color-white
+        +media-m()
+            background: $color-gray-servife-100
+        +media-s()
+            background: $color-gray-servife-100

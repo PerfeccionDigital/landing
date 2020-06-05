@@ -1,0 +1,81 @@
+body 
+    font-family: $font-family-ubuntu
+
+
+.content
+    overflow: hidden
+    max-width: $extra-large
+    margin: auto
+    box-sizing: content-box
+    +media-xl()
+        margin: auto 4%
+    +media-m()
+        margin: auto 4%
+    +media-s()
+        margin: 0 4%
+
+
+section
+    font-size: 16px
+
+
+section.sf-title
+    justify-content: center
+    min-height: 110px
+    background: $color-gray-100 
+    align-items: center
+    display: flex
+    & h1
+        font-family: $font-family-ubuntu
+        font-weight: lighter
+        line-height: 35px
+        text-align: center
+        font-size: 30px
+        color: $color-primary
+        margin: 0   
+    p
+        font-family: $font-family-ubuntu
+        font-weight: lighter
+        line-height: 35px
+        text-align: center
+        font-size: 30px
+        color: $color-primary
+        margin: 0
+    +media-m()
+        background: $color-white
+        p
+            padding: 24px 32px
+            font-size: 30px
+    +media-s()
+        background: $color-white
+        p
+            font-size: 30px
+            padding: 35px 0 25px 0
+
+
+section.sf-container-img-banner
+    & img 
+        width: 100%   
+    +media-m()
+        & .content
+            width: 100%
+            text-align: center
+            & img 
+                width: auto
+    +media-s()
+        & .content
+            & img 
+                width: 100% 
+
+
+.show-mobile
+    display: none
+    +media-m()
+        display: flex
+    +media-s()
+        display: flex
+.hide-mobile
+    +media-m()
+        display: none
+    +media-s()
+        display: none

@@ -1,0 +1,204 @@
+body {
+  font-family: 'UbuntuRegular';
+}
+strong {
+  font-family: 'UbuntuBold';
+}
+.content {
+  overflow: hidden;
+  max-width: 75rem;
+  margin: auto;
+  box-sizing: content-box;
+  padding: 0 0.625rem;
+}
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  position: relative;
+  margin-left: 0;
+  transition: all 0.35s ease;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+media-m()
+}
+header .logo .cl-blue {
+  color: $color-secundary;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+header .cl-whatsapp {
+  position: relative;
+  margin-left: 0;
+  transition: all 0.35s ease;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+header .cl-whatsapp a.sf-btn.-whatsapp.-web span {
+  display: block;
+media-m()
+}
+section {
+  font-size: 16px;
+}
+section.sf-title {
+  justify-content: center;
+  min-height: 110px;
+  background: $color-gray-100;
+  align-items: center;
+  display: flex;
+media-m()
+}
+section.sf-title p {
+  text-align: center;
+  font-size: 30px;
+  color: $color-primary;
+  margin: 0;
+}
+section.sf-room {
+  background-image: url("../img/bg_header.png");
+  height: 530px;
+media-s()
+}
+section.sf-room .content {
+  display: flex;
+media-s()
+}
+section.sf-room .sf-description {
+  width: 66.6%;
+media-l()
+media-s()
+}
+section.sf-room .sf-description h2 {
+  font-family: 'UbuntuBold';
+  color: $color-secundary;
+  font-size: 30px;
+  padding-top: 52px;
+  font-weight: bold;
+media-s()
+}
+section.sf-room .sf-form {
+  background: $color-secundary-light;
+  opacity: 0.9;
+  width: 33%;
+  height: 530px;
+media-l()
+media-s()
+}
+section.sf-room .sf-form form {
+  width: 80%;
+  margin: auto;
+}
+section.sf-room .sf-form form h4 {
+  font-family: 'UbuntuBold';
+  font-size: 20px;
+  line-height: 22px;
+  color: $color-white;
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+section.sf-room .sf-form form h4 strong {
+  color: $color-primary !important;
+}
+section.sf-room .sf-form form p {
+  font-family: 'UbuntuMedium';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  color: $color-white;
+  margin: 0px 0px 16px;
+}
+.sf_btn {
+  text-align: center;
+}
+._btn,
+.btn-bar,
+.btn-content-solid,
+a {
+  font-weight: 400;
+  white-space: nowrap;
+  user-select: none;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  position: relative;
+  min-height: 40px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+.select {
+  position: relative;
+  width: 100%;
+}
+.select>select {
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #6a6a6a;
+  height: 36px;
+  background-color: #fff;
+  color: #6a6a6a;
+  padding: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select>select:after {
+  content: "\F107";
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-family: 'fontawesome';
+  pointer-events: none;
+  z-index: 1;
+  margin: auto;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.textarea {
+  position: relative;
+  width: 100%;
+  margin: 16px 0px 25px;
+}
+.textarea textarea {
+  width: 100%;
+}
+.btn-content-solid {
+  font-family: 'UbuntuMedium';
+  padding: 0.625em 1.5em;
+  border-radius: 2rem;
+  background-color: $color-primary;
+  color: $color-white;
+}
+.input {
+  width: 100%;
+  height: 50px;
+  color: #6a6a6a;
+  position: relative;
+}
+.input>input {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  height: 36px;
+/* outline: none; */
+/* font-weight: 700; */
+}

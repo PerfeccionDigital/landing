@@ -1,0 +1,46 @@
+section.sf-container-beneficios
+    background: $color-white
+    & .content
+        width: $width-slim-fit
+        +media-xl()
+            width: auto
+        +media-m()
+            width: 90%
+        +media-s()
+            width: 90%
+    div.sf-content-beneficios
+        display: flex
+        flex-flow: row nowrap
+        justify-content: space-between
+        margin : 30px 0
+        +media-m()
+            margin: 5% 10% 0% 20%
+            flex-direction: column
+        +media-s()
+            flex-direction: column
+            margin: 10%
+        div.sf-beneficio
+            display: flex
+            flex-direction: row
+            +media-m()
+                margin: 5% 0 10% 0
+            +media-s()
+                margin: 10% 0 10% 0
+            div.sf-image-beneficios
+                text-align: center
+                & img
+                    max-width : 50px
+                    +media-m()
+                        max-width : 50px
+                    +media-s()
+                        max-width : 50px
+            div.sf-title-beneficios
+                align-self: center
+                width: 100%
+                color: $color-gray-500
+                font-size: 18px
+                padding-left: 15px
+                +media-m()
+                    font-size: 24px
+                +media-s()
+                    font-size: 24px

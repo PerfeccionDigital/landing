@@ -1,0 +1,80 @@
+.input
+    width: 100%
+    color: $color-gray-700
+    position: relative
+    margin: 10px 0px
+    font-size: 14px
+.input > input
+    border-radius: 4px
+    border: 1px solid $color-gray-400
+    width: 100%
+    padding: 0 15px
+    box-sizing: border-box
+    height: 44px
+    outline: none
+    font-size: 14px
+    color: $color-gray-600
+    
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+    -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+.input > input:focus
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+    -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    border-color: $color-primary-light
+
+.select {
+    position: relative;
+    width: 100%;
+}
+.select>select 
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid $color-gray-400
+    height: 50px;
+    background-color: #fff;
+    color: #6a6a6a
+    padding: 0 10px
+    cursor: pointer
+    outline: none
+    outline: 0
+    -webkit-appearance: none
+    -moz-appearance: none
+    font-size: 14px
+
+
+.select>select:after {
+    content: "\F107"
+    position: absolute
+    right: 10px
+    top: 0
+    font-family: 'fontawesome'
+    pointer-events: none
+    z-index: 1
+    margin: auto
+    bottom: 0
+    display: flex
+    align-items: center
+}
+
+.textarea
+    position: relative
+    width: 100%
+    margin: 16px 0px 16px
+    > textarea
+        border: 1px solid $color-gray-400
+        width: 91%
+        outline: aliceblue
+        font-size: 14px
+        padding: 5px 15px
+.textarea > textarea:focus
+    border-color: $color-primary-light
+
+.btn-content-solid
+    font-family: $font-family-ubuntu
+    padding: .625em 1.5em
+    border-radius: 2rem
+    background-color: $color-primary
+    color: $color-white

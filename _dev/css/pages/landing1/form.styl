@@ -1,0 +1,161 @@
+section.sf-room
+    background-image url('../img/bg_header.png')
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    height: 530px;
+    +media-m()
+        height: auto
+        background-image : none
+    +media-s()
+        height: auto
+        background-image : none
+    .sf-container-room
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        +media-m()
+            width: 100%;
+        +media-s()
+            flex-direction: column
+        .sf-content-description
+            width: 540px
+            margin-top: 50px
+            +media-l()
+                width: 50%
+            +media-m()
+                width: 100%
+                margin-top: 0
+                text-align: center
+            +media-s()
+                width: 100%
+                margin-top: 0
+                text-align: center
+            h2.sf-room-title
+                color: $color-blue 
+                font-family: $font-family-ubuntu
+                font-size: 30px
+                padding: 10px 0
+                font-weight: bold
+                line-height: 40px
+                p
+                    margin: 0
+            h3.sf-room-description
+                font-size: 21px
+                padding: 0 0 10px 0
+                line-height: 30px
+                color: #405663
+                margin-top: 0px
+        .sf-content-form
+            width: 400px
+            z-index: 1
+            +media-l()
+                width: 50%
+            +media-m()
+                width: 65%
+                text-align: center
+                margin: 0 auto
+            +media-s()
+                width: 100%
+            .sf-form
+                background: $color-secundary-light
+                padding: 20px 0px 20px 0px
+                border-radius: 12px
+                +media-m()
+                    background: $color-tertiary
+                +media-s()
+                    background: $color-tertiary
+                form 
+                    width: 100%
+                    .form-top
+                        width: 90%
+                        margin: auto
+                        .conent-text
+                            width: 90%
+                            margin: auto
+                            +media-m()
+                                width: 80%
+                            +media-s()
+                                width: 80%
+                        label.error, label.error 
+                            color: red
+                            font-style: italic
+                    .form-bottom
+                        width: 90%
+                        margin: auto
+                    h4
+                        font-family: $font-family-ubuntu
+                        font-size: 20px
+                        line-height: 27px
+                        color: $color-white
+                        text-align: center
+                        font-weight: bold
+                        +media-m()
+                            color: $color-gray-600
+                        +media-s()
+                            color: $color-gray-600
+                        strong
+                            color : $color-primary !important
+                    div.content_cards 
+                        display : flex 
+                        flex-direction: row
+                        justify-content: center
+                        +media-m()
+                            flex-direction: column
+                        +media-s()
+                            flex-direction: column
+                        div.txt_cards
+                            font-family: $font-family-ubuntu
+                            font-weight: 500
+                            font-size: 13px
+                            text-align: center
+                            color: $color-white
+                            float left
+                            align-self: center
+                            padding-right: 4px
+                            +media-m()
+                                color: $color-gray-600
+                            +media-s()
+                                color: $color-gray-600
+                        div.img_cards 
+                            float left
+                            +media-m()
+                                margin-top: 4px
+                            +media-s()
+                                margin-top: 4px
+                            img 
+                                max-width: 30px 
+                    p
+                        font-family: $font-family-ubuntu
+                        font-weight: 500
+                        font-size: 13px
+                        line-height: 20px
+                        text-align: center
+                        color: $color-white
+                        margin: 0
+                        +media-m()
+                            color: $color-gray-600
+                        +media-s()
+                            color: $color-gray-600
+                    div.sf_btn
+                        text-align: center
+                        +media-s()
+                            margin: 0 0 15px 0
+                    +media-m()
+                        height: 100%
+                    +media-s()
+                        height: 100%
+                    & .form-top div.input label 
+                        position: absolute
+                        right : 0
+                        margin: 12px 12px 0 0
+                    & .form-top div.select label
+                        position: absolute
+                        right : 0
+                        margin: 12px 12px 0 0
+                        font-size :  14px
+                    & .form-top div.textarea label
+                        position: absolute
+                        right : 0
+                        bottom : 0
+                        font-size :  14px
+                        margin: 0 12px 12px 0

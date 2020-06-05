@@ -1,0 +1,12 @@
+.c9/
+.DS_Store
+.idea
+/vendor
+.env
+composer.lock
+env.php
+
+# Dev
+dev.serviciosfe.com/
+error_log
+.htaccess

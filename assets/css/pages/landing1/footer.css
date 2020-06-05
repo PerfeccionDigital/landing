@@ -1,0 +1,54 @@
+footer section.sf-top-footer {
+  background: $color-secundary-light;
+  font-family: UbuntuRegular;
+  text-align: center;
+  font-size: 24px;
+  color: $color-white;
+  padding: 27px 0;
+media-m()
+media-s()
+}
+footer section.sf-bottom-footer {
+  border-top: 1px solid #fff;
+  background-image: url("../img/bg_footer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  background-size: 100% 100%;
+media-xl()
+media-l()
+media-m()
+media-s()
+}
+footer section.sf-bottom-footer div.sf-title-footer {
+  font-family: UbuntuRegular;
+  font-size: 32px;
+  color: $color-white;
+  margin-top: 50px;
+media-s()
+}
+footer section.sf-bottom-footer div.sf-title-footer p {
+  text-align: center;
+}
+footer section.sf-bottom-footer div.sf-title-contact-footer {
+  font-family: UbuntuBold;
+  font-size: 20px;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer section.sf-bottom-footer div.sf-title-contact-footer p {
+  text-align: center;
+}
+footer section.sf-bottom-footer div.sf-data-contact-footer {
+  font-family: UbuntuRegular;
+  font-size: 18px;
+  color: $color-white;
+}
+footer section.sf-bottom-footer div.sf-data-contact-footer span {
+  width: 100%;
+  display: block;
+  text-align: center;
+}

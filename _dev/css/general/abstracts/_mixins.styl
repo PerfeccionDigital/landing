@@ -1,0 +1,39 @@
+transition-general()
+  transition all .25s ease-in-out
+
+headermenuhide()
+  display none
+  position absolute
+  z-index 100
+  top 100%
+  background-color #fff
+  box-shadow 0px 3px 7px 0px rgba(0,0,0,.2)
+  border-top 1px solid $color-gray-200
+
+flex-center()
+  display flex
+  justify-content center
+  align-items center
+
+wancho()
+  max-width 75rem
+  margin auto
+  box-sizing content-box
+  padding 0 0.625rem
+
+// Media queries
+media-xl()
+  @media screen and (max-width: $extra-large)
+    {block}
+media-l()
+  @media screen and (max-width: $large)
+    {block}
+media-m()
+  @media screen and (max-width: $medium)
+    {block}
+media-s()
+  @media screen and (max-width: $small)
+    {block}
+media-xs()
+  @media screen and (max-width: $extra-small)
+    {block}

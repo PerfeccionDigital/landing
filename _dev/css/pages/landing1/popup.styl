@@ -1,0 +1,134 @@
+.pos_right
+    right : 0
+
+div.popup
+    width: 400px
+    height: auto
+    position: fixed
+    background-image: url(../img/bg_popup_dark.png)
+    background-repeat: repeat
+    bottom: 0
+    z-index: 3
+    padding: 14px 20px
+    & .popup_btn_close
+        position: absolute
+        top: 0 
+        right: 0 
+        padding: 5px 10px 0 0
+        color: $color-white
+        font-size: 20px
+        font-family: $font-family-ubuntu-regular
+        z-index: 3
+        cursor: pointer
+    & .popup_title
+        padding-left: 6px
+        & h3
+            color: $color-orange
+            font-size: 22px
+            +media-s()
+                font-size: 20px
+    & .popup_description
+        display: flex
+        flex-direction: row
+        justify-content: left
+        margin: 8px
+        & .desc_text
+            color: $color-white
+            font-family: $font-family-ubuntu-regular
+            width: 100%
+            padding: 0 0 0 10px
+            font-size: 18px
+            align-self: center
+            & ul 
+                padding: 0 0 0 14px
+                margin: 0
+                list-style: decimal !important
+                & li
+                    font-size: 12px
+                    padding: 3px 0
+            +media-s()
+                font-size: 16px
+        & .desc_img
+            align-self: center 
+            img 
+                width: 42px 
+        & .desc_img img.size_38 
+            width: 38px
+    +media-s()
+        width: 92%
+        padding: 4% 4%
+.hide_pos_left
+    bottom: 0
+    left : -500px
+    +media-s()
+        left : -600px
+
+.animation_show_left 
+    animation-name: anima_left
+    animation-duration: 1s
+    -webkit-animation-name: anima_left
+    -webkit-animation-duration: 1s
+    left : 0
+@keyframes anima_left
+	0%
+        left : -500px
+        +media-s()
+            left : -600px
+    50%
+        left : 0px
+	100%
+
+.animation_hide_left
+    animation-name: anima_hide_left
+    animation-duration: 1s
+    -webkit-animation-name: anima_hide_left
+    -webkit-animation-duration: 1s
+    left : -500px
+    +media-s()
+        left : -600px
+@keyframes anima_hide_left
+	0%
+        left : 0px
+    50%
+        left : -500px
+        +media-s()
+            left : -600px
+	100%
+
+.hide_pos_right
+    bottom: 0
+    right : -500px
+    +media-s()
+        right : -600px
+
+.animation_show_right
+    animation-name: anima_right
+    animation-duration: 1s
+    -webkit-animation-name: anima_right
+    -webkit-animation-duration: 1s
+    right : 0
+@keyframes anima_right
+	0%
+        right : -500px
+        +media-s()
+            right : -600px
+    50%
+        right : 0px
+	100%
+
+.animation_hide_right
+    animation-name: anima_hide_right
+    animation-duration: 1s
+    -webkit-animation-name: anima_hide_right
+    -webkit-animation-duration: 1s
+    right : -500px
+    +media-s()
+        right : -600px
+@keyframes anima_hide_right
+	0%
+        right : 0px
+    50%
+        right : -500px
+        +media-s()
+            right : -600px
+	100%

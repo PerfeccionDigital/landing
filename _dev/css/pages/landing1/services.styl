@@ -1,0 +1,170 @@
+.resaltar
+    color: $color-secundary-very-light !important
+
+section.sf-container-servicios
+    background-color: #F5F5F5
+    div.sf-servicios
+        display: flex
+        flex-direction: row
+        +media-m()
+            flex-direction: column
+            padding: 40px 0
+        +media-s()
+            flex-direction: column
+            padding: 40px 0
+        div.sf-data-servicios
+            display: flex   
+            flex-direction: column
+            align-self: center
+            width: 30%
+            margin: 12px 10px 12px 0
+            +media-m()
+                margin: 0 10%
+                width: auto
+            +media-s()
+                width: 100%
+            div.sf-especializados
+                margin: 0
+                +media-s()  
+                    margin: 0 10%
+                div.sf-title-especializacion h3
+                    color: $color-black
+                    font-size: 20px
+                    margin: 0 0 10px 0
+                    +media-m()
+                        font-size: 28px
+                    +media-s() 
+                        font-size: 28px
+                    p
+                        margin: 0 0 10px 0
+                div.sf-list-especializacion
+                    ul.list-especializacion
+                        list-style: none
+                        margin: 0
+                        padding: 0
+                        li
+                            background-image: url(../img/dot.png)
+                            background-repeat: no-repeat
+                            background-position-y: center
+                            background-size: 6px
+                            padding: 4px 0 4px 12px
+                            font-family: $font-family-ubuntu
+                            font-size: 16px
+                            color: #00466f
+                            +media-m()
+                                font-size: 18px
+                            +media-s()
+                                font-size: 18px
+            div.sf-complementarios
+                margin: 10% 0 0 0
+                +media-s()
+                    margin: 20px 10% 0 10%
+                div.sf-title-complementarios h3
+                    color: $color-black
+                    font-size: 20px
+                    margin: 0 0 10px 0
+                    +media-m()
+                        font-size: 28px
+                    +media-s()
+                        font-size: 28px
+                    p
+                        margin: 0 0 10px 0
+                div.sf-list-complementarios
+                    ul.list-complementarios
+                        list-style: none
+                        margin: 0
+                        padding: 0
+                        li
+                            background-image: url(../img/dot.png);
+                            background-repeat: no-repeat
+                            background-position-y: center
+                            background-size: 6px
+                            padding: 4px 0 4px 12px;
+                            font-family: $font-family-ubuntu
+                            font-size: 16px
+                            color: #00466f
+                            +media-m()
+                                font-size: 18px
+                            +media-s()
+                                font-size: 18px
+        div.sf-img-servicios
+            width: 70%
+            height auto
+            +media-m()
+                display: none
+            +media-s()
+                width: 100%
+                display: none
+            img
+                width: 100%
+                height: 100%
+
+section
+    section.sf-trabaja-nosotros
+        display: flex
+        flex-direction: row
+        justify-content: flex-start
+        height: 456px
+        +media-m()
+            flex-direction: column
+            height: auto
+        +media-s()
+            flex-direction: column
+            height: auto
+        div.sf-content-data-nosotros
+            align-self: center
+            +media-m()
+                order: 1
+                margin: 0 10%
+            +media-s()
+                order: 1
+                margin: 0 10%
+            div.sf-title-data-nosotros
+                font-family: $font-family-ubuntu
+                font-size: 32px
+                color: $color-blue
+                margin: 30px 0 0 0
+                +media-s()
+                    font-size: 35px
+                    margin: 0
+                p
+                    text-align: left
+                    margin: 40px 0 20px 0
+            div.sf-list-data-nosotros
+                ul.list-nosotros
+                    list-style: none
+                    li
+                        background-image: url(../img/arrow.png)
+                        background-repeat: no-repeat
+                        background-position-y: center
+                        background-size: 22px
+                        font-size: 16px
+                        padding: 10px 0 10px 28px
+                        +media-s()
+                            font-size: 16px
+                            padding: 10px 0 10px 28px
+                +media-m()
+                    margin-bottom: 30px
+                    padding: 0 5% 0 0
+                +media-s()
+                    margin-bottom: 30px
+                    padding: 0 5% 0 0
+            div.sf-button-data-contactenos
+                margin : 20px 0 0 0
+                +media-m()
+                    display: none
+                +media-s()
+                    display: none
+        div.sf-content-bgmovil-nosotros
+            margin: 0 6% 0 0
+            +media-m()
+                order: 2
+                text-align: center
+            +media-s()
+                order: 2
+            img
+                width: 100%
+                +media-m()
+                    width: 70%
+                +media-s()
+                    width: 100%

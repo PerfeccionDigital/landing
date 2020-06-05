@@ -1,0 +1,47 @@
+/*
+Available bodytext:
+  Regular fonts:
+    .txt-xl                20px
+    .txt-l                 18px
+    .txt-m                 16px
+    .txt-s                 14px
+    .txt-xs                12px
+
+  Semibold fonts:
+    .txt-sm-xl             20px
+    .txt-sm-l              18px
+    .txt-sm-m              16px
+    .txt-sm-s              14px
+    .txt-sm-xs             12px
+*/
+._reset-block-text
+  font-weight: 400
+  line-height: 1.5
+  margin: 0
+
+[class*='txt-']
+  font-family: $font-family-regular
+  @extent ._reset-block-text
+
+[class*='txt-sm']
+  font-family: $font-family-semibold
+  @extent ._reset-block-text
+
+.txt-xl
+.txt-sm-xl
+  font-size: 1.25rem
+.txt-l
+.txt-sm-l
+  font-size: 1.125rem
+.txt-m
+.txt-sm-m
+  font-size: 16px
+.txt-s
+.txt-sm-s
+  font-size: .875rem
+.txt-xs
+.txt-sm-xs
+  font-size: .75rem
+
+// .mono-text
+//   font-size: 1rem
