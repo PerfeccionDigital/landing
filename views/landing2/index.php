@@ -36,7 +36,7 @@
         <div class="content">
             <div class="sf-banner-block01">
                 <div class="b01">
-                    <div class="block01-title"><h1>PROTEGE LA SEGURIDAD<br /> DE TU <span>FAMILIA</span> Y DE<br /> TU <span>HOGAR</span></h1></div>
+                    <div class="block01-title"><h1>PROTEGEEEEE LA SEGURIDAD<br /> DE TU <span>FAMILIA</span> Y DE<br /> TU <span>HOGAR</span></h1></div>
                     <hr class="separatingline" />
                     <div class="block01-subtitle"><h3>Construye y refuerza las zonas seguras de tu casa.</h3></div>
                 </div>

@@ -39,7 +39,7 @@
                 <div class="thanks-whatsapp">
                     <a class="sf-btn -whatsapp -web" href="https://api.whatsapp.com/send?phone=51997360983&amp;text=Hola, estoy interesado en información y mi proyecto es">
                         <i class="fab fa-whatsapp mr5 -gtm-l1-gracias-whatsapp" aria-hidden="true"></i>
-                        <span class="-gtm-l1-gracias-whatsapp">999-350-981</span>
+                        <span class="-gtm-l1-gracias-whatsapp">999-444-981</span>
                     </a>
                 </div>
                 <div class="thanks-email"><strong>E-mail:</strong> admin@gmail.com</div>
